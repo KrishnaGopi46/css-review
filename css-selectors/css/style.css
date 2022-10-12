@@ -1,0 +1,78 @@
+/*css start*/
+.head{
+	background-color:yellow;
+	color:brown;
+}
+/*#top{
+	background-color:red;
+	color:blue;
+}*/
+.descent p{
+	background-color:black;
+	color:white;
+}
+.chil>p{
+	background-color:red;
+	color:yellow;
+}
+.sib+p{
+	background-color:blue;
+	color:yellow;
+}
+.sibs+p{
+	background-color:blue;
+	color:yellow;
+}
+.gen~p{
+	background-color:pink;
+	color:green;
+}
+.vis a:link{
+	color:black;
+}
+.vis a:visited{
+	color:green;
+}
+.vis a:hover{
+	color:red;
+}
+.vis a:active{
+	color:blue;
+}
+.psc p:first-child{
+	color:red;
+	background-color:green;
+}
+.pse p::first-line{
+	color:pink;
+}
+.hel h2::before{
+	content:url(../img/klematis.jpg)
+}
+.hell h2::after{
+	content:url(../img/klematis.jpg);
+}
+::marker{
+	color:red;
+	font-size:23px;
+}
+a[target] {
+  background-color: pink;
+}
+a[target=_blank] {
+  background-color: red;
+}
+[title~=flower] {
+  border: 5px solid yellow;
+}
+[class|="to"] {
+  background: yellow;
+}
+[class^="top"] {
+  background: green;
+}
+input[type=text]{
+	background-color:red;
+}
+/*css end*/
+Footer
