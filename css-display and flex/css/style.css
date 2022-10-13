@@ -1,0 +1,101 @@
+.a {
+  display: block;
+  border: 1px solid red;
+  background-color: pink;
+  padding: 10px;
+  width: auto;
+}
+.b {
+  border: 1px solid blue;
+  background-color: lightblue;
+  padding: 10px;
+}
+
+span{
+  display: none ;
+  padding: 2rem;
+  margin: rem;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  background: orange;
+}
+.a p{
+  display: inline;
+}
+
+
+#grow {
+  width: 100%;
+  height: 200px;
+  border: 1px solid #c3c3c3;
+  display: flex;
+  text-align: center;
+  font-size: 2rem;
+	}
+#grow div:nth-of-type(1){
+	flex-grow: 1;
+	background-color:coral;
+	}
+#grow div:nth-of-type(2){
+	flex-grow: 2;
+	background-color:lightblue;
+	}
+#grow div:nth-of-type(3){
+	flex-grow: 4;
+	background-color:khaki;
+	}
+#grow div:nth-of-type(4){
+	flex-grow: 3;
+	background-color:pink;
+	}
+#grow div:nth-of-type(5){
+	flex-grow: 1;
+	background-color:lightgrey;
+	}
+#grow div:nth-of-type(6){
+	flex-grow: 1;
+	background-color:blue;
+	}
+#grow div:nth-of-type(7){
+	flex-grow: 1;
+	background-color:green;
+	}
+
+
+#shrink {
+  width: 100%;
+  height: 300px;
+  border: 1px solid #c3c3c3;
+  display: flex;
+}
+#shrink div {
+  
+  flex-shrink:zz;
+}
+
+/*#shrink div:nth-of-type(3) {
+  flex-shrink:0;
+  flex-basis:;
+  
+}
+#shrink div:nth-of-type(2) {
+  flex-basis:20px;
+} */
+
+	/*--flex-direction: column|row|column-reverse|row-reverse--*/
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
