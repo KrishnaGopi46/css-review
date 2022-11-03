@@ -18,7 +18,7 @@ img {
 	border:2px solid yellow;
 	width:50%;
 	height:30px;
-	overflow:hidden;
+	overflow:clip; /*clip or hiddeen*/
 }
 .scroll{
 	border:2px solid yellow;
