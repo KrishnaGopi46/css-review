@@ -1,4 +1,7 @@
 /*css starts*/
+body{
+	background-color:pink;
+}
 .container{
 	width:85%;
 	margin:auto;
@@ -21,10 +24,10 @@
 	text-align:center;
 	width:20%;
 	height:10vh;
-	background-color:green;
+	background-color:blue;
 }
 .pointer:hover{
-	background-color:grey;
+	background-color:green;
 	
 }
 .alias {cursor: alias;}

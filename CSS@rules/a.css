@@ -1,4 +1,4 @@
-@import url("b.css");
+
 h2{
 	color: red;
 }
@@ -8,7 +8,7 @@ h3{
 @font-face {
     font-family: "OpenSans";
     src: url("../fonts/OpenSans-Regular.eot");
-    src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
+    src: url("../css@rules/Poppins-Italic.ttf") format("truetype");
 }
 .font-fac{
     background:gray;
@@ -25,10 +25,10 @@ div h3{
   height: 100px;
   background: red;
   position: relative;
-  animation: mymove 10s infinite;
+  animation: mymve 10s 2;
 }
 
-@keyframes mymove{
+@keyframes mymve{
   0%{
 	left: 0px;
 	background: red;
@@ -48,4 +48,10 @@ div h3{
 }
 h3{
 	background: yellowgreen !important;
+}
+li{
+	font-size:2rem;
+}
+#gopi{
+	color:red;
 }
